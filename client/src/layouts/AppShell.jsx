@@ -3,7 +3,7 @@ import BottomNav from "../components/BottomNav";
 
 const AppShell = () => {
   return (
-    <div className="">
+    <div className="pb-20">
       <Outlet />
       <BottomNav />
     </div>

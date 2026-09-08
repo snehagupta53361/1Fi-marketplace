@@ -5,12 +5,10 @@ const RatingStars = ({ rating }) => {
   if (rating == null) return null;
 
   return (
-    <div className="border-2 border-black/30 px-1 rounded-lg flex gap-1 items-center">
-      <p className="text-xs text-black/70 font-semibold">
-        {Number(rating).toFixed(1)}
-      </p>
+    <div className="bg-white rounded px-1.5 py-1 flex items-center gap-1 text-[9px] font-semibold text-[#151E29] shadow-sm z-10">
+      <p className="">{Number(rating).toFixed(1)}</p>
       <Star
-        size={13}
+        size={10}
         strokeWidth={2}
         className="fill-yellow-400 text-yellow-400"
       />
